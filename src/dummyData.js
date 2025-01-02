@@ -48,3 +48,18 @@ export    const userData = [
           "Active User": 4620,
         },
       ];
+
+
+export  const userRows = [
+        { id: 1, user: 'Snow',      email: 'jon@gmail.com', status: 'active', transaction:"$120.00", avatar:"https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" },
+        { id: 2, user: 'Lannister', email: 'jon@gmail.com', status: 'active', transaction:"$120.00", avatar:"https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" },
+        { id: 3, user: 'Lannister', email: 'jon@gmail.com', status: 'active', transaction:"$120.00", avatar:"https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" },
+        { id: 4, user: 'Stark',     email: 'jon@gmail.com', status: 'active', transaction:"$120.00", avatar:"https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" },
+        { id: 5, user: 'Targaryen', email: 'jon@gmail.com', status: 'active', transaction:"$120.00", avatar:"https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" },
+        { id: 6, user: 'Melisandre',email: 'jon@gmail.com', status: 'active', transaction:"$120.00", avatar:"https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" },
+        { id: 7, user: 'Clifford',  email: 'jon@gmail.com', status: 'active', transaction:"$120.00", avatar:"https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" },
+        { id: 8, user: 'Frances',   email: 'jon@gmail.com', status: 'active', transaction:"$120.00", avatar:"https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" },
+        { id: 9, user: 'Roxie',     email: 'jon@gmail.com', status: 'active', transaction:"$120.00", avatar:"https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" },
+        { id: 10, user: 'Jung',     email: 'jon@gmail.com', status: 'active', transaction:"$120.00", avatar:"https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" },
+        { id: 11, user: 'Byun',     email: 'jon@gmail.com', status: 'active', transaction:"$120.00", avatar:"https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" },
+    ];
