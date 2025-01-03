@@ -1,9 +1,8 @@
 import './userList.css'
 import { DataGrid } from '@mui/x-data-grid';
-import Paper from '@mui/material/Paper';
 import { DeleteOutline } from '@mui/icons-material';
 import { userRows } from '../../dummyData';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { useState } from "react";
 
 
@@ -31,15 +30,9 @@ export default function UserList() {
         { field: 'action', headerName: 'Action', width: 150, renderCell:(params)=>{
           return (
             <div className="userListAction">
-              <Routes>
-                <Route path={"/user"+params.row.id} element={<div/>} >
-                  
-                </Route>
-              </Routes>
-
-
-
-              <button className="userListEdit">Edit</button>
+              <Link to={"/user/"+params.row.id}>
+                <button className="userListEdit">Edit</button>
+              </Link>
               <DeleteOutline 
                 className="userListDelete"
                 onClick={()=>{handleDelete(params.row.id)}}
